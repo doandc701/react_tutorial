@@ -1,0 +1,12 @@
+Stateless functional component: components không có state,
+Stateful functional component : components có state
+
+
+
+1. enabling state: useState(...)
+2.initializing state: useState(false) => type: string, number, boolean, object, array
+3. reading state
+4. updating state
+const [state, setState] = useState(false);
+
+Quy tắc: không được viết trong vòng lặp, function, điều kiện
